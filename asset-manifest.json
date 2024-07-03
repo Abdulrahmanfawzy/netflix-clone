@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Abdulrahmanfawzy/netflix-clone/static/css/main.c2ba5520.css",
+    "main.js": "/Abdulrahmanfawzy/netflix-clone/static/js/main.20d948e2.js",
+    "static/js/453.5c53b3d1.chunk.js": "/Abdulrahmanfawzy/netflix-clone/static/js/453.5c53b3d1.chunk.js",
+    "static/media/fa-solid-900.ttf": "/Abdulrahmanfawzy/netflix-clone/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/fa-brands-400.ttf": "/Abdulrahmanfawzy/netflix-clone/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/Roboto-Medium.ttf": "/Abdulrahmanfawzy/netflix-clone/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
+    "static/media/Roboto-Bold.ttf": "/Abdulrahmanfawzy/netflix-clone/static/media/Roboto-Bold.f80816a5455d171f948d.ttf",
+    "static/media/fa-solid-900.woff2": "/Abdulrahmanfawzy/netflix-clone/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/fa-brands-400.woff2": "/Abdulrahmanfawzy/netflix-clone/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/bg-login.jpg": "/Abdulrahmanfawzy/netflix-clone/static/media/bg-login.ce31896d5b07c589f8b2.jpg",
+    "static/media/fa-regular-400.ttf": "/Abdulrahmanfawzy/netflix-clone/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/logo2.png": "/Abdulrahmanfawzy/netflix-clone/static/media/logo2.fbe6e02fe6c38cf256ca.png",
+    "static/media/fa-regular-400.woff2": "/Abdulrahmanfawzy/netflix-clone/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Abdulrahmanfawzy/netflix-clone/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Abdulrahmanfawzy/netflix-clone/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "index.html": "/Abdulrahmanfawzy/netflix-clone/index.html",
+    "main.c2ba5520.css.map": "/Abdulrahmanfawzy/netflix-clone/static/css/main.c2ba5520.css.map",
+    "main.20d948e2.js.map": "/Abdulrahmanfawzy/netflix-clone/static/js/main.20d948e2.js.map",
+    "453.5c53b3d1.chunk.js.map": "/Abdulrahmanfawzy/netflix-clone/static/js/453.5c53b3d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2ba5520.css",
+    "static/js/main.20d948e2.js"
+  ]
+}
