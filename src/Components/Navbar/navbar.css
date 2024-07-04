@@ -1,0 +1,73 @@
+.navbar img{
+    width: 150px;
+}
+
+.navbar a{
+    color: #FFF;
+}
+
+.navbar a:hover{
+    color: #CCC;
+}
+.nav-link:focus, .nav-link:hover{
+    color: var(--main-red);
+}
+.signinBtn{
+    outline: 0;
+    border: 0;
+    background: rgb(192, 12, 12);
+    color: var(--main-white);
+    padding: 5px 12px;
+    border-radius: 3px;
+    transition: .3s background-color;
+}
+.signinBtn:hover{
+    background-color: var(--main-red);
+}
+.navFixed{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1215;
+}
+.bg_black{
+    background-color: #000;
+    transition: background-color .3s ease-in-out;
+}
+
+.default-ltr-cache-1d568uk{
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    display: block;
+}
+
+.profile_pic_handle{
+    display: none;
+}
+
+.data_links{
+    /* background: #000; */
+    text-align: center;
+    padding: 10px 0;
+}
+@media (max-width: 991px){
+    nav{
+        margin-top: 10px;
+    }
+    .profile_pic_handle{
+        display: block;
+    }
+    .imager{
+        display: none;
+    }
+    .signer{
+        align-items: center!important;
+        justify-content: center!important;
+    }
+    .data_links{
+        background: #000;
+    }
+}

@@ -1,0 +1,141 @@
+.backPath {
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.overlay_backdrop {
+  position: absolute;
+  top: 0;
+  background: rgb(0 0 0 / 40%);
+  height: 100%;
+  left: 0;
+  width: 100%;
+}
+.title_movie {
+  font-family: var(--main-font-title);
+  font-size: 4rem;
+}
+.genre_name {
+  background: var(--main-red);
+  margin-right: 10px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.overview {
+  font-size: 17px;
+}
+.love {
+  color: var(--main-red);
+  font-size: 20px;
+}
+.cast_title {
+  position: relative;
+}
+.cast_title::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  bottom: -10px;
+  width: 40px;
+  height: 4px;
+  background: var(--main-red);
+}
+
+.cast .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.cast .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cast .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.cast .swiper-pagination-bullet-active{
+    background-color: var(--main-red);
+}
+
+.cast .swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{
+    margin-bottom: -8px;
+}
+
+.cast_name{
+    position: absolute;
+    bottom: 0;
+    font-size: 17px;
+    user-select: none;
+}
+
+.videos .cast_title::after{
+    width: 70px;
+}
+.videos .swiper-button-prev, .videos .swiper-button-next{
+  color: #FFF;
+}
+
+.posters .cast_title::after{
+  width: 70px;
+}
+
+.recommendations .cast_title::after{
+  width: 120px;
+}
+
+@media (max-width: 576px){
+  .videos iframe{
+    height: 400px;
+  }
+}
+
+.allPage{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+}
+
+.profile_letter{
+  background: #512DA7;
+  color: #FFF;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  user-select: none;
+  border-radius: 50%;
+  text-align: center;
+}
+.write_review{
+  width: 100%;
+  color: #cbcbcb;
+  background-color: transparent;
+  margin-top: 15px;
+  height: 150px;
+  outline: none;
+  border: 1px solid #333;
+  resize: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+
+@media(max-width: 576px){
+  .title_movie{
+    font-size: 2rem;
+  }
+  .allPage{
+    top: 35%;
+  }
+}

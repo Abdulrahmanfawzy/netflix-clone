@@ -1,0 +1,66 @@
+@font-face {
+  font-family: robotoBoldTitle;
+  src: url(./assets/fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: robotoElements;
+  src: url(./assets/fonts/Roboto/Roboto-Medium.ttf);
+}
+:root{
+  --main-font: robotoElements;
+  --main-font-title: robotoBoldTitle;
+  --main-red: #D9232E;
+  --main-white: #FFF;
+  --main-hover: rgb(192, 12, 12);
+}
+*{
+  font-family: var(--main-font);
+}
+
+body {
+  margin: 0;
+  background: #000000!important;
+  color: var(--main-white)!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.basic_container{
+  width: 90%;
+  margin: auto;
+}
+.title_bold{
+  font-family: var(--main-font-title);
+}
+nav #navBtn{
+  background: #FFF;
+}
+.loading{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CircularProgressbar {
+  width: 40px!important;
+}
+
+.CircularProgressbar-path {
+  stroke: #66BB6A!important;
+}
+.CircularProgressbar-trail {
+  stroke: #f9f9f9!important;
+}
+.CircularProgressbar-text {
+  fill: #FFF!important;
+}
+.CircularProgressbar-background {
+  fill: transparent!important;
+}
+

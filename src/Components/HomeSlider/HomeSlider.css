@@ -1,0 +1,131 @@
+.slider_home .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.slider_home .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider_home .swiper-slide img {
+  width: 100%;
+  height: 125vh;
+  object-fit: cover;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.slider_home .swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content_overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgb(0, 0, 0)20%, rgba(0, 0, 0, 0));
+}
+
+.content_overlay_top_bot{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1) 0, rgba(0, 0, 0, 0.3) 20% , rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%)}
+
+.home_slider_content{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    width: 650px;
+    text-align: left;
+}
+
+.home_slider_content h2{
+  font-family: var(--main-font-title);
+  font-size: 4rem;
+}
+ 
+.watch_link{
+  background: var(--main-red);
+  border-color: var(--main-red)!important;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: .3s ease-in-out;
+  font-size: 15px;
+}
+.watch_link i{
+  font-size: 14px;
+  margin-right: 6px;
+}
+.watch_link:hover{
+  background: var(--main-hover)
+}
+#searchInpt::placeholder{
+  color: #a0a0a0;
+}
+#searchInpt{
+  padding: 15px 20px;
+  border: 2px solid #a0a0a0;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+}
+#searchInpt:focus{
+  border-color:green;
+}
+
+@media(max-width: 991px){
+  .slider_home .swiper-slide img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 768px){
+  .home_slider_content{
+    width: 90%;
+  }
+  .overview{
+    font-size: 16px!important;
+  }
+  .home_slider_content h2{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 576px){
+  .overview{
+    font-size: 15px!important;
+  }
+  .home_slider_content h2{
+    font-size: 2.5rem;
+  }
+  .content_overlay{
+    background: linear-gradient(to right, rgb(0, 0, 0)30%, rgba(0, 0, 0, 0));
+  }
+}
+
+@media (max-width: 350px){
+  .overview{
+    font-size: 14px!important;
+  }
+  .home_slider_content h2{
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,13 @@
+.btn_load_more{
+    transition: .3s;
+}
+.btn_load_more:hover{
+    color: var(--main-hover)!important;
+}
+.spanTitle::after{
+    content: ",";
+    
+}
+.spanTitle:last-child::after{
+    content: "";
+}
